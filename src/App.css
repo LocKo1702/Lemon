@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1160px;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Markazi-Text", "Karla";
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+img {
+    user-select: none;
+    pointer-events: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
